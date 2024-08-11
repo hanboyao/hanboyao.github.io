@@ -1,3 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Skynet's Blog</title><link>https://hanboyao.github.io</link><description>A Blog Of Program &amp; Photography</description><copyright>Skynet's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/75368904?v=4</url><title>avatar</title><link>https://hanboyao.github.io</link></image><lastBuildDate>Sun, 04 Aug 2024 12:15:32 +0000</lastBuildDate><managingEditor>Skynet's Blog</managingEditor><ttl>60</ttl><webMaster>Skynet's Blog</webMaster><item><title>Test doc</title><link>https://hanboyao.github.io/post/Test%20doc.html</link><description>A test doc of this blog &#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Skynet's Blog</title><link>https://hanboyao.github.io</link><description>A Blog Of Program &amp; Photography</description><copyright>Skynet's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/75368904?v=4</url><title>avatar</title><link>https://hanboyao.github.io</link></image><lastBuildDate>Sun, 11 Aug 2024 15:02:51 +0000</lastBuildDate><managingEditor>Skynet's Blog</managingEditor><ttl>60</ttl><webMaster>Skynet's Blog</webMaster><item><title>【R语言学习日志】DAY 1  向量（VECTOR）</title><link>https://hanboyao.github.io/post/%E3%80%90R-yu-yan-xue-xi-ri-zhi-%E3%80%91DAY%201%20%20-xiang-liang-%EF%BC%88VECTOR%EF%BC%89.html</link><description># 向量(vector)&#13;
+&gt; R语言最基本的数据类型，用于存储数值型、字符型或逻辑型数据的一维结构&#13;
+&#13;
+## 一、向量的创建&#13;
+1.可以使用`c()`创建一个向量，例如：&#13;
+```&#13;
+a &lt;- c(1,2,3,4,5)   #数值型用逗号隔开&#13;
+a &lt;- c(1:5)   #连续型用冒号&#13;
+b &lt;- c('R','Rstudio')   #文本用双引号&#13;
+c &lt;- c(TRUE,FALSE,T,F)   #逻辑型用T/F&#13;
+```&#13;
+2.可以使用`vector()`创建一个空向量，例如：&#13;
+```&#13;
+d&lt;- vector(length=10)   #建立一个长度为10的空向量&#13;
+```&#13;
+&gt; 空向量内部完全为FALSE。</description><guid isPermaLink="true">https://hanboyao.github.io/post/%E3%80%90R-yu-yan-xue-xi-ri-zhi-%E3%80%91DAY%201%20%20-xiang-liang-%EF%BC%88VECTOR%EF%BC%89.html</guid><pubDate>Sun, 11 Aug 2024 15:02:15 +0000</pubDate></item><item><title>Test doc</title><link>https://hanboyao.github.io/post/Test%20doc.html</link><description>A test doc of this blog &#13;
 `The blog is already online if u can see this `。</description><guid isPermaLink="true">https://hanboyao.github.io/post/Test%20doc.html</guid><pubDate>Sun, 04 Aug 2024 12:10:50 +0000</pubDate></item></channel></rss>
